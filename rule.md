@@ -46,9 +46,7 @@
   - 其他
 
 ```html
-<button class="btn-primary" id="submit" title="提交">
-  提交<button></button>
-</button>
+<button class="btn-primary" id="submit" title="提交">提交</button>
 ```
 
 - 布尔型属性在声明时不需要赋值
@@ -65,9 +63,7 @@
 
 ``` html
 <!-- 头部 -->
-<div class="header">
-
-</div>
+<div class="header"></div>
 <!-- 头部 -->
 ```
 
