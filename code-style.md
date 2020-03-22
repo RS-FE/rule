@@ -1,4 +1,4 @@
-# 前端开发规范
+# 代码风格
 
 ## HTML
 
@@ -182,5 +182,27 @@ function(name, age) {
 - 本规范作为视觉设计部基本开发规范，实际项目中应优先考虑该项目或使用的框架的相关规范。
 
 - 推荐使用 vscode 作为默认编辑器，通过 vscode 扩展 Prettier - Code formatter 作为代码格式化默认程序；
+
+``` setting.json
+{
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 800,
+  "prettier.resolveGlobalModules": true,
+  "prettier.singleQuote": true
+}
+```
 
 - 更多规范可参考[Bootstrap 编码规范](https://codeguide.bootcss.com/)，但须永远遵循同一套编码规范；

@@ -54,3 +54,10 @@
 - css、js、图片名称中只能出现小写字母和破折号;
 
 - 尽量使用雪碧图和字体图标库；
+
+
+## 其他规范
+
+- [代码风格](code-style.md)
+- [git入门](learn-git.md)
+- [git工作流](git-flow.md)
