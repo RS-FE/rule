@@ -181,7 +181,7 @@ function(name, age) {
 
 - 本规范作为视觉设计部基本开发规范，实际项目中应优先考虑该项目或使用的框架的相关规范。
 
-- 推荐使用 vscode 作为默认编辑器，通过 Prettier - Code formatter 进行代码格式化， vetur 为 vue 单文件进行代码格式化；
+- 推荐使用 vscode 作为默认编辑器，通过 Prettier - Code formatter 进行代码格式化；
 
 ``` json
 {
@@ -196,7 +196,7 @@ function(name, age) {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.jsxBracketSameLine": true,
   "prettier.printWidth": 800,
