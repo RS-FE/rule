@@ -28,3 +28,16 @@ a:hover .opacity { filter:alpha(opacity=80); opacity:0.8; -moz-opacity:0.8; }
 
 /*主体宽度样式（可选用）如有新宽度，命名规则以小写w开头，后接具体宽度数据，例：*/
 .w1200{width: 1200px; margin: 0px auto; }
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #cccccc;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #cccccc;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cccccc;
+}
