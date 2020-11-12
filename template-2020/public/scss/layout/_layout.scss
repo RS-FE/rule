@@ -1,0 +1,43 @@
+/*
+* 整体布局
+*/
+.layout-header {
+  position: relative;
+  height: 0.8rem;
+
+  .header-title {
+    margin: 0 auto;
+    display: block;
+    width: 5.74rem;
+    height: 0.8rem;
+    font-size: 0.5rem;
+    background-size: 100% 100%;
+    text-align: center;
+  }
+}
+
+.layout-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3.28rem;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .flex-left {
+    margin-left: 0.3rem;
+    flex-basis: 4.68rem;
+  }
+
+  .flex-mid {
+    margin: 0 0.33rem;
+    flex-basis: 8.58rem;
+  }
+
+  .flex-right {
+    margin-right: 0.3rem;
+    flex-basis: 4.68rem;
+  }
+}

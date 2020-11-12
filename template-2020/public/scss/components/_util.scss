@@ -1,0 +1,9 @@
+/*
+* 辅助样式
+*/
+// 对齐
+@each $dir in left, center, right {
+  .text-#{$dir} {
+    text-align: $dir !important;
+  }
+}

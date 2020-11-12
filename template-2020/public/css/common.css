@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*
+* 公共样式入口
+*/
+/*
+* 变量
+*/
+/*
+* 公共样式
+*/
+html,
+body {
+  height: 100%;
+  background: #fafcff;
+}
+
+body {
+  min-width: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #333;
+}
+
+i,
+cite {
+  font-style: normal;
+}
+
+.loading-success {
+  display: block !important;
+}
+
+.layout-container {
+  display: none;
+  position: relative;
+  height: 100%;
+  min-height: 10.79rem;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+/*
+* 辅助样式
+*/
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
