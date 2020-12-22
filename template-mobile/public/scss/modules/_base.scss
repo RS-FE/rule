@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 * 公用
 */
@@ -16,21 +15,25 @@ html {
     font-size: 100px;
   }
 }
+
 @media (max-width: 414px) {
   html {
     font-size: 55.2px;
   }
 }
+
 @media (max-width: 375px) {
   html {
     font-size: 50px;
   }
 }
+
 @media (max-width: 320px) {
   html {
     font-size: 42.6667px;
   }
 }
+
 body {
   font-family: inherit;
   line-height: 0.42rem;
@@ -71,12 +74,10 @@ input::-moz-placeholder,
 textarea::-moz-placeholder {
   color: #cccccc;
 }
-
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #cccccc;
 }
-
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #cccccc;
@@ -102,8 +103,7 @@ textarea::-webkit-input-placeholder {
   line-height: 0.88rem;
   background: #fff;
   border-bottom: 1px solid #efefef;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .mui-bar-nav .mui-title {
@@ -150,8 +150,7 @@ textarea::-webkit-input-placeholder {
   padding: 0;
   height: 1rem;
   background: #fff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .mui-bar-footer ~ .mui-content {
@@ -165,27 +164,17 @@ body,
 
 /* 底部选项卡 */
 .mui-bar-tab {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 0.9rem;
   border-top: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .mui-bar-tab a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-basis: 50%;
+  align-items: center;
+  justify-content: center;
   font-size: 0.32rem;
   background: #e7e7e7;
   color: #373636;
@@ -224,10 +213,3 @@ body,
   font-size: 0.3rem;
   line-height: 0.48rem;
 }
-
-/**
-* 按钮
-*/
-/*
-* 表单
-*/
