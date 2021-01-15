@@ -24,11 +24,11 @@ cite {
 }
 
 .loading-success {
-  display: block !important;
+  visibility: visible !important;
 }
 
 .layout-container {
-  display: none;
+  visibility: hidden;
   position: relative;
   height: 100%;
   min-height: 10.79rem;
